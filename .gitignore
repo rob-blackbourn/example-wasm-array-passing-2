@@ -1,0 +1,4 @@
+*.wasm
+*.wat
+.vscode
+node_modules

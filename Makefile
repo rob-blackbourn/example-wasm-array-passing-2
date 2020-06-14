@@ -1,4 +1,4 @@
-CC=/opt/clang/bin/clang
+CC=clang
 CCFLAGS=--target=wasm32-unknown-unknown-wasm --optimize=3 -nostdlib
 LDFLAGS=-Wl,--export-all -Wl,--no-entry -Wl,--allow-undefined
 
